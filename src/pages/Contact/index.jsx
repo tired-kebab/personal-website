@@ -3,7 +3,11 @@ import Typography from "@mui/material/Typography";
 const Index = () => {
   return (
     <div>
-      <Typography variant="h2" className="contact-heading">
+      <Typography
+        variant="h3"
+        className="contact-heading"
+        style={{ fontWeight: 500 }}
+      >
         Contact
       </Typography>
       <div

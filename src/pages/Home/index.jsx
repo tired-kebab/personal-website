@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <div className="home-container">
       <header className="home-header">
-        <Typography variant="h2" color="white">
+        <Typography variant="h2" color="white" style={{ fontWeight: 500 }}>
           Naeem Malik
         </Typography>
       </header>
@@ -27,7 +27,12 @@ const Index = () => {
           >
             Website
           </Typography>
-          <Typography className="home-caption" variant="body1" gutterBottom>
+          <Typography
+            className="home-caption"
+            variant="body1"
+            gutterBottom
+            style={{ fontWeight: 100 }}
+          >
             &quot;Life is not a series of gig lamps symmetrically arranged; life
             is a luminous halo, <br /> a semi-transparent envelope surrounding
             us from the beginning of consciousness <br /> to the end.&quot; --
