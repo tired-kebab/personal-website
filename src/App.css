@@ -106,12 +106,9 @@ ul li a {
   background-color: #c9c9ee;
 }
 
-/* .home-container {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: space-around;
-} */
+.home-container {
+  width: 100vw;
+}
 
 .home-main {
   display: flex;
