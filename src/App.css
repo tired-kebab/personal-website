@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background: linear-gradient(to bottom, coral, #c9c9ee3b); */
+  background-color: beige;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.logo {
+  max-height: 50px;
+  cursor: pointer;
+  margin-right: 200px;
+}
+
+.search {
+  outline: none;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed; /* Position modal over the page */
+  z-index: 1; /* Set modal above other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fefefe; /* White background */
+  margin: 20% auto; /* Center modal vertically and horizontally */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.modal-content input {
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+.close {
+  color: #aaa;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-header {
+  text-align: center;
+  padding: 150px;
+  background-image: url("/Users/naeemlive/Desktop/personal-website/personal-website/src/assets/home-header-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #c9c9ee;
+}
+
+/* .home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+} */
+
+.home-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-collage {
+  display: inline;
+  height: 500px;
+
+  /* position: absolute; */
+  /* left: 100px; */
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 700px;
+}
+
+.home-caption {
+  display: inline;
+  word-wrap: normal;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+}
+
+.contact-heading {
+  text-align: center;
+  font-weight: bolder;
+}
