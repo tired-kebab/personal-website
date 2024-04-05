@@ -9,10 +9,16 @@ function App() {
   const [isModal, setIsModal] = useState(false);
   return (
     <>
-      <Navbar isModal={isModal} setIsModal={setIsModal} />
-      <Outlet />
+      <header>
+        <Navbar isModal={isModal} setIsModal={setIsModal} />
+      </header>
+      <main>
+        <Outlet />
+      </main>
       {isModal ? <Modal setIsModal={setIsModal} /> : null}
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
